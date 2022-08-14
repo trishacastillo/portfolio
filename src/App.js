@@ -2,7 +2,6 @@
 
 function App() {
 
-
   return (
     <div className="App">
       <header id="top">
@@ -54,7 +53,7 @@ function App() {
 
 		
 		<div className="project-container">
-			<img src=".png" alt="weather-app" height="250" width="450"/>
+			<img src="https://raw.githubusercontent.com/trishacastillo/portfolio/main/src/images/weatherapp.png" alt="weather-app" height="250" width="450"/>
 
 			<div className="project-content">
 				<h3>Weather App</h3>

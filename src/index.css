@@ -25,8 +25,8 @@
 	--bg-alt: rgb(22 28 41 / 33%);
 	--fg: #bdbddd;
 	--fg-alt: #cdcdff;
-	--primary: #807ae8;
-	--primary-alt: #706aec;
+	--primary: rgb(24 136 234);
+	--primary-alt: rgb(23 140 234);
 	--primary-light: rgb(18 17 49 / 44%);
 	--container-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
 		rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
@@ -45,13 +45,13 @@
 }
 
 ::-moz-selection {
-	background: #807ae8;
+	background: rgb(24 136 234);
 	color: #030217;
 }
 
 ::-webkit-selection,
 ::selection {
-	background: #807ae8;
+	background: rgb(24 136 234);
 	color: #030217;
 }
 
@@ -65,12 +65,12 @@
 
 ::-webkit-scrollbar-thumb {
 	border: 4px solid #030217;
-	background-color: #807ae8;
+	background-color: rgb(24 136 234);
 	border-radius: 0.5em;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background-color: #706aec;
+	background-color: rgb(23 140 234);
 }
 
 html {
@@ -121,15 +121,15 @@ a {
 .link {
 	padding: 0 0 0.12em 0;
 	position: relative;
-	color: #807ae8;
+	color: rgb(24 136 234);
 }
 
 .link:hover {
-	color: #807ae8;
+	color: rgb(24 136 234);
 }
 
 .link:active {
-	color: #706aec;
+	color: rgb(23 140 234);
 }
 
 .link::before {
@@ -139,7 +139,7 @@ a {
 	height: 0.12em;
 	position: absolute;
 	bottom: 0;
-	background-color: #807ae8;
+	background-color: rgb(24 136 234);
 	transition: width 0.2s ease-out;
 }
 
@@ -201,7 +201,7 @@ nav li {
 }
 
 .hero-name {
-	color: #807ae8;
+	color: rgb(24 136 234);
 }
 
 .hero-about {
@@ -232,7 +232,7 @@ section {
 	margin: 0.3em auto 0 auto;
 	display: block;
 	width: 1.5em;
-	border-bottom: 0.2em solid #807ae8;
+	border-bottom: 0.2em solid rgb(24 136 234);
 }
 
 .project-container {
@@ -251,6 +251,7 @@ section {
 
 .project img {
 	border-radius: 0.5em;
+	width: auto;
 }
 
 .project-content {
@@ -280,7 +281,7 @@ section {
 	padding: 0.4em 0.6em;
 	border-radius: 5em;
 	background-color: var(--primary-light);
-	color: #706aec;
+	color: rgb(23 140 234);
 }
 
 .project-link {
@@ -321,7 +322,7 @@ section {
 	width: 100%;
 	height: 6px;
 	border-radius: 1.5;
-	background-color: #706aec;
+	background-color: rgb(23 140 234);
 	transition: all 0.2s linear;
 }
 
@@ -378,8 +379,7 @@ footer small {
 	}
 
 	.project img {
-		max-width: 100%;
-		max-height: 100%;
+		width: auto;
 		margin: 0 auto;
 		margin-bottom: 2em;
 	}
@@ -450,12 +450,12 @@ footer small {
 	font-weight: 600;
 	transition: transform 0.2s ease-in-out;
 	padding: 1em 1.6em;
-	background-color: #807ae8;
+	background-color: rgb(24 136 234);
 	color: #030217;
 }
 
 .btn:hover {
-	background-color: #706aec;
+	background-color: rgb(23 140 234);
 }
 
 .btn:active {
@@ -489,7 +489,7 @@ footer small {
 	width: 0%;
 	height: 0%;
 	z-index: -1;
-	background-color: #807ae8;
+	background-color: rgb(24 136 234);
 	border-radius: 50%;
 	transition: all 0.25s ease-in-out;
 }
@@ -498,7 +498,7 @@ footer small {
 .icon-border:hover::after {
 	width: 100%;
 	height: 100%;
-	border: 0.2em solid #807ae8;
+	border: 0.2em solid rgb(24 136 234);
 }
 
 .icon-normal {
@@ -510,8 +510,8 @@ footer small {
 .icon-border {
 	width: 2.2em;
 	height: 2.2em;
-	color: #807ae8;
-	border: 0.15em solid #807ae8;
+	color: rgb(24 136 234);
+	border: 0.15em solid rgb(24 136 234);
 }
 
 /* icons */
@@ -536,14 +536,14 @@ footer small {
 }
 
 .scroll-up a {
-	background-color: #807ae8;
+	background-color: rgb(24 136 234);
 	padding: 0.9em 1.2em;
 	color: #030217;
 	border-radius: 50%;
 }
 
 .scroll-up a:hover {
-	background-color: #706aec;
+	background-color: rgb(23 140 234);
 }
 
 @media (max-width: 1000px) {
