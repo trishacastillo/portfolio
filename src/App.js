@@ -1,5 +1,5 @@
-
-
+import travel_bataan from './images/travelbataan.png';
+import are_u_love from './images/ruinlove.png';
 function App() {
 
   return (
@@ -82,7 +82,7 @@ function App() {
 		</div>
 
 		<div className="project-container">
-			<img src="https://raw.githubusercontent.com/trishacastillo/portfolio/main/src/images/weatherapp.png" alt="weather-app" height="250" width="450"/>
+			<img src={are_u_love} alt="weather-app" height="250" width="450"/>
 
 			<div className="project-content">
 				<h3>Are u InLove</h3>
@@ -110,7 +110,7 @@ function App() {
 		</div>
 
 		<div className="project-container">
-			<img src="https://raw.githubusercontent.com/trishacastillo/portfolio/main/src/images/weatherapp.png" alt="weather-app" height="250" width="450"/>
+			<img src={travel_bataan} alt="weather-app" height="250" width="450"/>
 
 			<div className="project-content">
 				<h3>Travel Bataan</h3>
@@ -163,16 +163,16 @@ function App() {
 				Php
 			</div>
 			<div className="tech-container">
-				<i className="devicon-dart-plain colored"></i>
-				Dart
+				<i className="devicon-python-plain"></i>
+				Python
 			</div>
 			<div className="tech-container">
-				<i className="devicon-flutter-plain colored"></i>
-				Flutter
+				<i className="devicon-react-plain colored"></i>
+				React
 			</div>
 			<div className="tech-container">
-				<i className="devicon-c-plain colored"></i>
-				C
+				<i className="devicon-bootstrap-plain colored"></i>
+				Bootstrap
 			</div>
 		
 
@@ -194,8 +194,8 @@ function App() {
 
 
 			<div className="tech-container">
-				<i className="devicon-linux-plain"></i>
-				Linux
+            	<i className="devicon-android-plain colored"></i>
+				Android
 			</div>
 
 		</div>
@@ -223,7 +223,7 @@ function App() {
 			</li>
 
 			<li>
-				<a href="https://www.linkedin.com" aria-label="Linkedin">
+				<a href="https://www.linkedin.com/in/trishacastillo" aria-label="Linkedin">
 					<span className="btn">
 						<i aria-hidden="true" className="fab icon fa-linkedin"></i>
 						Linkedin
