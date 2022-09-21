@@ -42,7 +42,7 @@ function App() {
 				  aspernatur numquam quas hic!
 			</p>
 
-			<a className="resume" href="https://drive.google.com/file/d/1dxcTIi01e2tB447lSrc8MtB6-uLaS_hz/view?usp=sharing">
+			<a className="resume" href="">
 				<span className="btn">Resume</span>
 			</a>
 		</div>
@@ -69,16 +69,73 @@ function App() {
 
 				<ul className="project-link">
 					<li>
-						<a href="#" aria-label="Source code"
+						<a href="https://github.com/trishacastillo/weatherapp" aria-label="Source code"
 							title="source code" rel="noopener"><i className="icon-border fas fa-code"></i></a>
 					</li>
 					<li>
-						<a href="#" aria-label="Preview" 
+						<a href="https://trishacastillo.github.io/weatherapp/" aria-label="Preview" 
 							title="preview" rel="noopener"><i aria-hidden="true"
 								className="icon-border fas fa-external-link-alt"></i></a>
 					</li>
 				</ul>
 			</div>
+		</div>
+
+		<div className="project-container">
+			<img src="https://raw.githubusercontent.com/trishacastillo/portfolio/main/src/images/weatherapp.png" alt="weather-app" height="250" width="450"/>
+
+			<div className="project-content">
+				<h3>Are u InLove</h3>
+				<p>An entertainment website measuring how in love you are via test questions.</p>
+
+				<ul className="project-skill">
+					<li>HTML</li>
+					<li>Vanilla CSS</li>
+					<li>React.js</li>
+
+				</ul>
+
+				<ul className="project-link">
+					<li>
+						<a href="https://trishacastillo.github.io/areuinlove" aria-label="Source code"
+							title="source code" rel="noopener"><i className="icon-border fas fa-code"></i></a>
+					</li>
+					<li>
+						<a href="https://trishacastillo.github.io/areuinlove/" aria-label="Preview" 
+							title="preview" rel="noopener"><i aria-hidden="true"
+								className="icon-border fas fa-external-link-alt"></i></a>
+					</li>
+				</ul>
+			</div>	
+		</div>
+
+		<div className="project-container">
+			<img src="https://raw.githubusercontent.com/trishacastillo/portfolio/main/src/images/weatherapp.png" alt="weather-app" height="250" width="450"/>
+
+			<div className="project-content">
+				<h3>Travel Bataan</h3>
+				<p>A online reservation system designed for Bataan tourist spots. It was used to book a tour from anywhere in the Philippines using a single dynamic website that will provide the user with all of the information about the sites and tour specifics in one spot. The users can log in and book. The admin can confirm the transaction of the users on the manage booking page by sending them an email indicating that their booking has been approved.</p>
+
+				<ul className="project-skill">
+					<li>PHP</li>
+					<li>Bootstrap</li>
+					<li>Javascript</li>
+					<li>SQL Database</li>
+
+				</ul>
+
+				<ul className="project-link">
+					<li>
+						<a href="https://trishacastillo.github.io/areuinlove" aria-label="Source code"
+							title="source code" rel="noopener"><i className="icon-border fas fa-code"></i></a>
+					</li>
+					<li>
+						<a href="https://trishacastillo.github.io/areuinlove/" aria-label="Preview" 
+							title="preview" rel="noopener"><i aria-hidden="true"
+								className="icon-border fas fa-external-link-alt"></i></a>
+					</li>
+				</ul>
+			</div>	
 		</div>
 
 		
