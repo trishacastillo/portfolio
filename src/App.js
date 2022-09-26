@@ -1,21 +1,22 @@
 import travel_bataan from './images/travelbataan.png';
 import are_u_love from './images/ruinlove.png';
+import bpsu_complaint from './images/bpsucomplaint.png'
 function App() {
 
   return (
     <div className="App">
       <header id="top">
-		<a className="icon-border header-title" href="#">TC</a>
+		<a className="icon-border header-title" href="/#">TC</a>
 		<nav>
 			<ul>
 				<li>
-					<a href="#project" className="link">Projects</a>
+					<a href="/#project" className="link">Projects</a>
 				</li>
 				<li>
-					<a href="#stack" className="link">Tech Stack</a>
+					<a href="/#stack" className="link">Tech Stack</a>
 				</li>
 				<li>
-					<a href="#contact" className="link">Contact</a>
+					<a href="/#contact" className="link">Contact</a>
 				</li>
 			</ul>
 
@@ -35,14 +36,14 @@ function App() {
 
 		<div className="hero-about">
 			<p>
-				I am a passionate web developer. I enjoy writing code, and building
-				website and application. Lorem ipsum dolor sit amet consectetur adipisicing
-				 elit. Exercitationem praesentium perspiciatis accusantium tenetur ullam esse 
-				 ipsam totam eaque, ipsa sed deleniti porro quo! Commodi labore, 
-				  aspernatur numquam quas hic!
+				I am a passionate web and software developer. I enjoy writing code, and building
+				website and application.  
+			</p>
+			<p>
+				I am always willing to learn and improve my skills as well as come up in a new ways to create solutions.   
 			</p>
 
-			<a className="resume" href="">
+			<a className="resume" href="/">
 				<span className="btn">Resume</span>
 			</a>
 		</div>
@@ -50,6 +51,34 @@ function App() {
 
 	<section id="project" className="project">
 		<h2 className="section-title">Projects</h2>
+
+		<div className="project-container">
+			<img src={bpsu_complaint} alt="weather-app" height="250" width="450"/>
+
+			<div className="project-content">
+				<h3>BPSU Complaint System</h3>
+				<p>A system that provides a convenient way to file a complaint. One of school project in software engineering course</p>
+
+				<ul className="project-skill">
+					<li>HTML</li>
+					<li>Vanilla CSS</li>
+					<li>React.js</li>
+
+				</ul>
+
+				<ul className="project-link">
+					<li>
+						<a href="/#project" aria-label="Source code not available"
+							title="Source code not available" rel="noopener"><i className="icon-border fas fa-code"></i></a>
+					</li>
+					<li>
+						<a href="http://bpsucomplaintsystem-testpurposes.epizy.com/index.php?i=1" aria-label="Preview" 
+							title="preview" rel="noopener"><i aria-hidden="true"
+								className="icon-border fas fa-external-link-alt"></i></a>
+					</li>
+				</ul>
+			</div>	
+		</div>
 
 		
 		<div className="project-container">
