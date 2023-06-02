@@ -1,6 +1,7 @@
 import travel_bataan from './images/travelbataan.png';
 import are_u_love from './images/ruinlove.png';
 import bpsu_complaint from './images/bpsucomplaint.png'
+import bymp from './images/bymp.png'
 function App() {
 
   return (
@@ -43,7 +44,7 @@ function App() {
 				I am always willing to learn and improve my skills as well as come up in a new ways to create solutions.   
 			</p>
 
-			<a className="resume" href="/">
+			<a className="resume" target="blank" href="https://drive.google.com/file/d/1DuulL5c5KY241p8qak3tnY6Rt2qPrD3y/view?usp=drive_link">
 				<span className="btn">Resume</span>
 			</a>
 		</div>
@@ -51,6 +52,37 @@ function App() {
 
 	<section id="project" className="project">
 		<h2 className="section-title">Projects</h2>
+
+		<div className="project-container">
+			<img src={bymp} alt="weather-app" height="250" width="450"/>
+
+			<div className="project-content">
+				<h3>Barangay Youth Management Portal</h3>
+				<p>A system that provides a convenient way to file a complaint. One of school project in software engineering course</p>
+
+				<ul className="project-skill">
+					<li>Bootstrap 5 Framework</li>
+					<li>JQuery</li>
+					<li>PHP</li>
+					<li>Mysql</li>
+					<li>SMS Gateway</li>
+					<li>Dom PDF</li>
+
+				</ul>
+
+				<ul className="project-link">
+					<li>
+						<a href="/#project" aria-label="Source code is in private"
+							title="Source code is in private" rel="noopener"><i className="icon-border fas fa-code"></i></a>
+					</li>
+					<li>
+						<a href="https://bymportal.epizy.com/index.php" aria-label="Preview" 
+							title="preview" rel="noopener"><i aria-hidden="true"
+								className="icon-border fas fa-external-link-alt"></i></a>
+					</li>
+				</ul>
+			</div>	
+		</div>
 
 		<div className="project-container">
 			<img src={bpsu_complaint} alt="weather-app" height="250" width="450"/>
@@ -62,7 +94,7 @@ function App() {
 				<ul className="project-skill">
 					<li>HTML</li>
 					<li>Vanilla CSS</li>
-					<li>React.js</li>
+					<li>PHP</li>
 
 				</ul>
 
@@ -155,11 +187,11 @@ function App() {
 
 				<ul className="project-link">
 					<li>
-						<a href="https://trishacastillo.github.io/areuinlove" aria-label="Source code"
+						<a href="#" aria-label="Source code not available"
 							title="source code" rel="noopener"><i className="icon-border fas fa-code"></i></a>
 					</li>
 					<li>
-						<a href="https://trishacastillo.github.io/areuinlove/" aria-label="Preview" 
+						<a href="#" aria-label="Preview not available" 
 							title="preview" rel="noopener"><i aria-hidden="true"
 								className="icon-border fas fa-external-link-alt"></i></a>
 					</li>
@@ -263,7 +295,7 @@ function App() {
 	</section>
 
 	<footer>
-		<small>Made with 💛 by Trisha Castillo v2022</small>
+		<small>Made with 💛 by Trisha Castillo</small>
 	</footer>
 
 	<div className="scroll-container">
