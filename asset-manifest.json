@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/trishacastillo/portfolio/static/css/main.20cdfe2e.css",
+    "main.js": "/trishacastillo/portfolio/static/js/main.c0394a78.js",
+    "static/media/bpsucomplaint.png": "/trishacastillo/portfolio/static/media/bpsucomplaint.e03e3218fd7e7d3b14b6.png",
+    "static/media/bymp.png": "/trishacastillo/portfolio/static/media/bymp.9cc655ced8477df20b42.png",
+    "static/media/travelbataan.png": "/trishacastillo/portfolio/static/media/travelbataan.eff6fa9aa86f9a1c4a7a.png",
+    "static/media/ruinlove.png": "/trishacastillo/portfolio/static/media/ruinlove.01096c2701c15e756476.png",
+    "index.html": "/trishacastillo/portfolio/index.html",
+    "main.20cdfe2e.css.map": "/trishacastillo/portfolio/static/css/main.20cdfe2e.css.map",
+    "main.c0394a78.js.map": "/trishacastillo/portfolio/static/js/main.c0394a78.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20cdfe2e.css",
+    "static/js/main.c0394a78.js"
+  ]
+}
