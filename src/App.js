@@ -44,7 +44,7 @@ function App() {
 				I am always willing to learn and improve my skills as well as come up in a new ways to create solutions.   
 			</p>
 
-			<a className="resume" target="blank" href="https://drive.google.com/file/d/1DuulL5c5KY241p8qak3tnY6Rt2qPrD3y/view?usp=drive_link">
+			<a className="resume" target="blank" href="https://drive.google.com/file/d/1V4B4aD1gIcKArnps-No3RxflGw0M0RuG/view?usp=sharing">
 				<span className="btn">Resume</span>
 			</a>
 		</div>
