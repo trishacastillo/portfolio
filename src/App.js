@@ -2,22 +2,24 @@ import travel_bataan from './images/travelbataan.png';
 import are_u_love from './images/ruinlove.png';
 import bpsu_complaint from './images/bpsucomplaint.png'
 import bymp from './images/bymp.png'
+import moviecy from './images/moviecy.png'
+
 function App() {
 
   return (
     <div className="App">
       <header id="top">
-		<a className="icon-border header-title" href="/#">TC</a>
+		<a className="icon-border header-title" href="#">TC</a>
 		<nav>
 			<ul>
 				<li>
-					<a href="/#project" className="link">Projects</a>
+					<a href="#project" className="link">Projects</a>
 				</li>
 				<li>
-					<a href="/#stack" className="link">Tech Stack</a>
+					<a href="#stack" className="link">Tech Stack</a>
 				</li>
 				<li>
-					<a href="/#contact" className="link">Contact</a>
+					<a href="#contact" className="link">Contact</a>
 				</li>
 			</ul>
 
@@ -58,7 +60,7 @@ function App() {
 
 			<div className="project-content">
 				<h3>Barangay Youth Management Portal</h3>
-				<p>A system that provides a convenient way to file a complaint. One of school project in software engineering course</p>
+				<p>a web-based system designed to improve the efficiency of the Local Youth Development Office's daily operations in the Municipality of Hermosa. The portal includes modules for youth profiling, assistance recommendation, application submission, feedback, notification, messaging, report generation, and account management. It aims to automate and streamline the management of youth data and services, while also providing a more convenient way for the youth to access various programs and services offered by LYDO.</p>
 
 				<ul className="project-skill">
 					<li>Bootstrap 5 Framework</li>
@@ -112,6 +114,33 @@ function App() {
 			</div>	
 		</div>
 
+		<div className="project-container">
+			<img src={moviecy} alt="weather-app" height="250" width="450"/>
+
+			<div className="project-content">
+				<h3>MovieCyclopedia</h3>
+				<p>A web application built using html, css, javascript, react js, and TMDB's API. It shows and automatically update the trending movies, categories, and movie rating that users might find useful in looking for movie to watch.</p>
+
+				<ul className="project-skill">
+					<li>TMDB API</li>
+					<li>React JS</li>
+					<li>CSS</li>
+
+				</ul>
+
+				<ul className="project-link">
+					<li>
+						<a href="https://github.com/trishacastillo/movie-hub" aria-label="source code"
+							title="source code" rel="noopener"><i className="icon-border fas fa-code"></i></a>
+					</li>
+					<li>
+						<a href="https://trishacastillo.github.io/movie-hub/" aria-label="Preview" 
+							title="preview" rel="noopener"><i aria-hidden="true"
+								className="icon-border fas fa-external-link-alt"></i></a>
+					</li>
+				</ul>
+			</div>	
+		</div>
 		
 		<div className="project-container">
 			<img src="https://raw.githubusercontent.com/trishacastillo/portfolio/main/src/images/weatherapp.png" alt="weather-app" height="250" width="450"/>
